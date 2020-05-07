@@ -1,7 +1,7 @@
 public class BonusMilesService {
-    public int calculate (int ticketPrice) {
+    public int calculate (int cost) {
         int milePrice = 20; //Стоимость мили в рублях
-        int milesCount = ticketPrice / milePrice; // Количество миль
+        int milesCount = cost / milePrice; // Количество миль
         return milesCount;
     }
 }
